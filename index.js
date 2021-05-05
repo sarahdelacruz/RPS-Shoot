@@ -17,6 +17,7 @@ var title = document.querySelector('h1');
 var player1 = document.querySelector('.p1');
 var player2 = document.querySelector('.p2');
 
+//1=rock, 2=paper, 3=scissor
 //winners
 if (randomPic1 == 2 & randomPic2 == 1 | randomPic1 == 1 & randomPic2 == 2 ){
 		 title.textContent = 'Paper Wins!'};
